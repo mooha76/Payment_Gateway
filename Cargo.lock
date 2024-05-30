@@ -9,6 +9,7 @@ dependencies = [
  "client",
  "configuration",
  "errors",
+ "utils",
 ]
 
 [[package]]
@@ -228,7 +229,12 @@ dependencies = [
 name = "configuration"
 version = "0.1.0"
 dependencies = [
+ "config",
+ "http",
  "serde",
+ "strum",
+ "tracing",
+ "utils",
 ]
 
 [[package]]
@@ -1635,7 +1641,19 @@ checksum = "c3523ab5a71916ccf420eebdf5521fcef02141234bbc0b8a49f2fdc4544364ef"
 dependencies = [
  "log",
  "pin-project-lite",
+ "tracing-attributes",
  "tracing-core",
+]
+
+[[package]]
+name = "tracing-attributes"
+version = "0.1.27"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "34704c8d6ebcbc939824180af020566b01a7c01f80641264eba0999f6c2b6be7"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 2.0.66",
 ]
 
 [[package]]
@@ -1736,6 +1754,10 @@ name = "utf-8"
 version = "0.7.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "09cc8ee72d2a9becf2f2febe0205bbed8fc6615b7cb429ad062dc7b7ddd036a9"
+
+[[package]]
+name = "utils"
+version = "0.1.0"
 
 [[package]]
 name = "utoipa"

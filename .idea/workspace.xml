@@ -8,10 +8,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7ad57cc-d9fb-4546-9a51-1b16b55bd485" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/server.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration/src/initialize.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/src/root.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/configuration/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/configuration/src/lib.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,20 +42,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.rust.reset.selective.auto.import&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/mooha/Rust/Payment_Api&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
-    &quot;org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon&quot;: &quot;&quot;,
-    &quot;org.rust.first.attach.projects&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cargo.Expand configuration::initialize.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.rust.reset.selective.auto.import": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/mooha/Rust/Payment_Api",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
+    "org.rust.first.attach.projects": "true"
   }
-}</component>
+}]]></component>
   <component name="RdControllerToolWindowsLayoutState" isNewUi="true">
     <layout>
       <window_info id="Bookmarks" show_stripe_button="false" side_tool="true" />
@@ -63,13 +67,14 @@
       <window_info id="Commit" order="1" weight="0.25" />
       <window_info id="Structure" order="2" sideWeight="0.49901575" side_tool="true" weight="0.18391928" />
       <window_info anchor="bottom" id="TypeScript" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Build" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" show_stripe_button="false" />
       <window_info anchor="bottom" id="File Transfer" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Problems" order="1" />
       <window_info anchor="bottom" id="Problems View" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.29227942" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.3302696" />
+      <window_info anchor="bottom" id="Build" order="4" weight="0.3302696" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.3302696" />
       <window_info anchor="bottom" id="Services" order="4" />
       <window_info anchor="right" id="Coverage" show_stripe_button="false" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
@@ -81,7 +86,24 @@
       <window_info anchor="right" id="RustCargo" order="6" weight="0.2" />
     </layout>
   </component>
-  <component name="RunManager" selected="Cargo.Run Payment_Api">
+  <component name="RunManager" selected="Cargo.Expand configuration::initialize">
+    <configuration name="Expand configuration::initialize" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="expand --lib --color=always --theme=Dracula --tests initialize" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/configuration" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Run Payment_Api" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
       <option name="command" value="run --package Payment_Api --bin Payment_Api" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -116,6 +138,11 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cargo.Expand configuration::initialize" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
@@ -130,7 +157,7 @@
       <updated>1716989764817</updated>
       <workItem from="1716989766027" duration="5376000" />
       <workItem from="1717045982666" duration="572000" />
-      <workItem from="1717046567543" duration="3453000" />
+      <workItem from="1717046567543" duration="5145000" />
     </task>
     <servers />
   </component>
