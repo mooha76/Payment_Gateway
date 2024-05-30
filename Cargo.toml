@@ -6,4 +6,5 @@ edition = "2021"
 [dependencies]
 configuration= { path = "./configuration" }
 errors= { path = "./errors" }
+client = { path = "./client" }
 
