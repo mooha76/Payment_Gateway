@@ -8,3 +8,4 @@ configuration= { path = "./configuration" }
 errors= { path = "./errors" }
 client = { path = "./client" }
 utils={path = "./utils"}
+state={path = "./state"}

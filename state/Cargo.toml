@@ -1,5 +1,5 @@
 [package]
-name = "client"
+name = "state"
 version = "0.1.0"
 edition = "2021"
 
@@ -9,6 +9,9 @@ path= "../configuration"
 [dependencies.errors]
 path= "../errors"
 
+[dependencies.client]
+path= "../client"
+
 [dependencies]
-reqwest = { version = "0.12.2", features = ["json", "multipart", "stream"] }
-serde = { version = "1.0.203", features = ["derive"] }
+tokio = "1.38.0"
+http = "1.1.0"

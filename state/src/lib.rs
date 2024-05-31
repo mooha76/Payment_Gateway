@@ -1,18 +1,8 @@
-pub mod http;
-
-
-use configuration::initialize::AppConfig;
-use errors::errors::AppResult;
+pub mod state;
 
 pub fn add(left: usize, right: usize) -> usize {
     left + right
 }
-
-
-pub trait ClientBuilder: Sized {
-    fn build_from_config(config: &AppConfig) -> AppResult<Self>;
-}
-
 
 #[cfg(test)]
 mod tests {

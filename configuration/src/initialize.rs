@@ -6,6 +6,7 @@ use serde::Deserialize;
 
 use utils::root::get_project_root;
 use crate::server::ServerConfig;
+use crate::http::HttpClientConfig;
 
 
 
@@ -13,6 +14,7 @@ use crate::server::ServerConfig;
 pub struct AppConfig {
     pub profile: Profile,
     pub server: ServerConfig,
+    pub http: HttpClientConfig,
 
 }
 
