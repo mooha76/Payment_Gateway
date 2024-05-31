@@ -1,4 +1,4 @@
-pub mod mystate;
+pub mod server;
 
 pub fn add(left: usize, right: usize) -> usize {
     left + right

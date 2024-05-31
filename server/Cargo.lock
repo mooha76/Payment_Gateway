@@ -3,21 +3,6 @@
 version = 3
 
 [[package]]
-name = "Payment_Api"
-version = "0.1.0"
-dependencies = [
- "client",
- "configuration",
- "errors",
- "handler",
- "response",
- "router",
- "server",
- "state",
- "utils",
-]
-
-[[package]]
 name = "addr2line"
 version = "0.22.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"

@@ -1,0 +1,11 @@
+[package]
+name = "response"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.38"
+serde = { version = "1.0.203", features = ["derive"] }
+uuid = { version = "1.8.0", features = ["v4"] }
+utoipa = { version = "4.2.0", features = ["axum_extras", "uuid", "chrono"] }
+utoipa-swagger-ui = { version = "6.0.0", features = ["axum"] }

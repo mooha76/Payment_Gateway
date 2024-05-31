@@ -1,0 +1,19 @@
+[package]
+name = "handler"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies.errors]
+path= "../errors"
+
+[dependencies.state]
+path= "../state"
+
+[dependencies.response]
+path= "../response"
+
+[dependencies]
+axum = "0.7.5"
+tracing = { version = "0.1.40", features = ["attributes"] }
+utoipa = { version = "4.2.0", features = ["axum_extras", "uuid", "chrono"] }
+utoipa-swagger-ui = { version = "6.0.0", features = ["axum"] }

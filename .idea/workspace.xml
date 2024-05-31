@@ -8,16 +8,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7ad57cc-d9fb-4546-9a51-1b16b55bd485" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/configuration/src/http.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/state/src/state.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handler/src/server.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/response/src/response.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/src/my_router.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/src/server.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/server.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/client/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/lib.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/server.rs" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/http.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration/src/initialize.rs" beforeDir="false" afterPath="$PROJECT_DIR$/configuration/src/initialize.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/configuration/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/state/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/state/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/state/src/state.rs" beforeDir="false" afterPath="$PROJECT_DIR$/state/src/mystate.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +72,7 @@
       <window_info anchor="bottom" id="TypeScript" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" show_stripe_button="false" />
       <window_info anchor="bottom" id="File Transfer" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Problems" order="1" />
       <window_info anchor="bottom" id="Problems View" order="2" />
@@ -160,7 +161,7 @@
       <updated>1716989764817</updated>
       <workItem from="1716989766027" duration="5376000" />
       <workItem from="1717045982666" duration="572000" />
-      <workItem from="1717046567543" duration="9970000" />
+      <workItem from="1717046567543" duration="13065000" />
     </task>
     <servers />
   </component>

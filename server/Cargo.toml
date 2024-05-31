@@ -1,0 +1,22 @@
+[package]
+name = "server"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies.state]
+path= "../state"
+
+[dependencies.configuration]
+path= "../configuration"
+
+[dependencies.errors]
+path= "../errors"
+
+[dependencies.router]
+path= "../router"
+
+[dependencies]
+axum = "0.7.5"
+tokio = "1.38.0"
+tracing = "0.1.40"
