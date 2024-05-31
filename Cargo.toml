@@ -13,5 +13,8 @@ server={path = "./server"}
 router={path = "./router"}
 handler={path = "./handler"}
 response={path = "./response"}
+cmd={path = "./cmd"}
+logger={path = "./logger"}
+constants={path = "./constants"}
 
 

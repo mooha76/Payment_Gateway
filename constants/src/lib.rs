@@ -1,7 +1,4 @@
-pub mod server;
-pub mod initialize;
-pub mod http;
-pub mod env;
+mod constants;
 
 pub fn add(left: usize, right: usize) -> usize {
     left + right
